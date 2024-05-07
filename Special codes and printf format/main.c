@@ -31,6 +31,12 @@ int main(int argc, char *argv[])
     
     //Trabalhe com códigos especiais para controlar a formatação e caracteres especiais.
     printf("Nova linha: primeira linha\nSegunda linha\n");
+    printf("Tabulation: \tExemplo de TAB\n");
+    printf("Aspas duplas: \"Entre Aspas\"\n");
+    printf("Barra Invertida: \\ (para imprimir barra invertida)\n");
+    printf("Porcentagem %% (para imprimir um simbolo de porcentagem)\n");
+    
+    
     
   
   system("PAUSE");	
