@@ -1,8 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+    //Imprima informações de uma estrutura ou de uma matriz formatada.
+    typedef struct
+    { 
+     
+     char nome[50];
+     int idade;
+     float altura;       
+     
+    } Pessoa;
+
 int main(int argc, char *argv[])
 {
+    
+    Pessoa p = {"Joao Silva", 30, 1.75};
+    
+    printf("Nome: %s\n", p.nome);
+    printf("Idade: %d anos\n", p.idade);
+    printf("Altura: %.2f metros\n", p.altura);
+    
+    
     /*
     Para usar o comando printf de maneira eficiente em C,
     é importante entender como formatar a saída de acordo com suas necessidades.
@@ -36,6 +54,7 @@ int main(int argc, char *argv[])
     printf("Barra Invertida: \\ (para imprimir barra invertida)\n");
     printf("Porcentagem %% (para imprimir um simbolo de porcentagem)\n");
     
+
     
     
   
