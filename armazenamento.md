@@ -76,3 +76,50 @@ Eficiência: A escolha do tipo certo pode melhorar a eficiência do uso da memó
 ## 📝 Conclusão
 
 Saber como os tipos de dados em C são armazenados ajuda a escrever código mais eficiente e menos propenso a erros. Compreender o impacto do padding, alinhamento, e os tamanhos variáveis dos tipos em diferentes plataformas é fundamental para otimizar programas e garantir a portabilidade do código.
+
+Para entender o tamanho dos tipos de dados em C, você pode usar o operador sizeof para obter o tamanho, em bytes, de um tipo ou variável. O exercício a seguir ajuda a explorar e exibir o tamanho de diferentes tipos de dados em C, incluindo tipos básicos e compostos. Vamos criar um programa simples que mostra os tamanhos de diversos tipos para verificar como a memória é alocada para cada um deles.
+
+```c
+#include <stdio.h>
+
+// Função principal do programa
+int main() {
+    // Exibir tamanhos dos tipos básicos
+    printf("Tamanho do tipo char: %lu byte(s)\n", sizeof(char));
+    printf("Tamanho do tipo int: %lu byte(s)\n", sizeof(int));
+    printf("Tamanho do tipo short: %lu byte(s)\n", sizeof(short));
+    printf("Tamanho do tipo long: %lu byte(s)\n", sizeof(long));
+    printf("Tamanho do tipo long long: %lu byte(s)\n", sizeof(long long));
+
+    // Exibir tamanhos dos tipos de ponto flutuante
+    printf("Tamanho do tipo float: %lu byte(s)\n", sizeof(float));
+    printf("Tamanho do tipo double: %lu byte(s)\n", sizeof(double));
+    printf("Tamanho do tipo long double: %lu byte(s)\n", sizeof(long double));
+
+    // Exibir tamanhos de arrays
+    int arr[10];
+    printf("Tamanho de um array de 10 inteiros: %lu byte(s)\n", sizeof(arr));
+
+    // Exibir tamanhos de estruturas
+    struct Exemplo {
+        char a;  // 1 byte
+        int b;   // 4 bytes
+        float c; // 4 bytes
+    };
+    printf("Tamanho de uma estrutura Exemplo: %lu byte(s)\n", sizeof(struct Exemplo));
+
+    // Exibir tamanhos de uniões
+    union Data {
+        int i;     // 4 bytes
+        float f;   // 4 bytes
+        char arr[8]; // 8 bytes
+    };
+    printf("Tamanho de uma união Data: %lu byte(s)\n", sizeof(union Data));
+
+    // Exibir tamanhos de enumerações
+    enum Semana { SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO };
+    printf("Tamanho de uma enumeração Semana: %lu byte(s)\n", sizeof(enum Semana));
+
+    return 0;  // Termina o programa com sucesso
+}
+```
