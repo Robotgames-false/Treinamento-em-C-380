@@ -25,5 +25,31 @@ int main() {
 ```
 
 ## Argumentos para o main 💻
+
 Quando você executa um programa em C, pode passar argumentos da linha de comando para a função main. Normalmente, a assinatura do main é:
 
+```c
+int main(int argc, char *argv[])
+```
+
+argc é o número de argumentos passados para o programa (incluindo o nome do programa).
+argv é um array de strings que contém os argumentos.
+Vamos ver um exemplo em que usamos argumentos da linha de comando para configurar o comportamento do programa:
+
+```c
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        printf("Por favor, forneça um argumento.\n");
+        return 1;
+    }
+
+    printf("Você forneceu o argumento: %s\n", argv[1]);
+
+    return 0;
+}
+
+```
+
+Neste exemplo, o programa verifica se pelo menos um argumento foi passado. Se houver um argumento, ele é impresso na tela. Se não houver argumentos suficientes, o programa exibe uma mensagem solicitando um argumento.
