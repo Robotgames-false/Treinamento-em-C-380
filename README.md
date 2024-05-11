@@ -9,6 +9,9 @@ Bem-vindo ao repositório **Treinamento em C**! Este repositório foi criado par
 - **Projetos Práticos**: Pequenos projetos para aplicar o que foi aprendido, como calculadoras simples, gerenciadores de contatos e jogos básicos.
 - **Práticas Avançadas**: Exemplos que demonstram conceitos mais avançados, como ponteiros, alocação dinâmica de memória e manipulação de arquivos.
 
+## Minha Jornada:
+- [A função printf e códigos especiais e de formatação](https://github.com/elisioMassaqui/Treinamento-em-C/tree/master/Special%20codes%20and%20printf%20format)
+
 ## 🛠️ Como Usar
 
 Se você está começando em C, recomendamos começar com os exercícios básicos e avançar para seções mais complexas conforme seu progresso. Para executar os exemplos, você precisará de um compilador C. Ferramentas populares incluem **GCC**, **Clang** e **Dev-C++**.
