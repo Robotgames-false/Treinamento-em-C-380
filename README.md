@@ -10,7 +10,14 @@ Bem-vindo ao repositório **Treinamento em C**! Este repositório foi criado par
 - **Práticas Avançadas**: Exemplos que demonstram conceitos mais avançados, como ponteiros, alocação dinâmica de memória e manipulação de arquivos.
 
 ## Minha Jornada:
+- [Intro](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/main.c)
 - [A função printf e códigos especiais e de formatação](https://github.com/elisioMassaqui/Treinamento-em-C/tree/master/Special%20codes%20and%20printf%20format)
+- [Práticas](https://githu.com/elisioMassaqui/Treinamento-em-C/tree/master/pratice)
+- [Tipos de dados](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/tiposDados.md)
+- [Modificadores](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/modificadores.md)
+- [Argumentos](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/Argumentos.md)
+- [Diferenças de Armazenamento entre Tipos de Dados](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/armazenamento.md)
+- [Compreendendo a Necessidade de Tipos float Maiores](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/floatIsBIG.md)
 
 ## 🛠️ Como Usar
 
