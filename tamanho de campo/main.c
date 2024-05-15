@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
     printf("Nome: %8s \t Idade: %2d \t Hora: %5f \n", "Elisio Massaqui Luamba", 22, 21.89);
     
     //Tamanho de campo com zeros preenchendo o vazioooo.
+    printf("%012d \t %020d \t %030d \n", 15, 30, 3366);
     
 
   
