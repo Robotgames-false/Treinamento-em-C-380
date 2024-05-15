@@ -7,7 +7,10 @@ int main(int argc, char *argv[])
     printf("%15d %16d %12d %19d \n", 20, 30, 40, 50);
     
     //Pra de decimais tamamnho de campo a direita
-    printf("-12d %-15d %-16d", 20, 60, 10);
+    printf("-12d %-15d %-16d \n", 20, 60, 10);
+    
+    //Tamanho de campo pra float a esquerda e ao mesmo tempo com arredondamento
+    printf("%.1f \t %.1f \t %1f \t \n", 49.98, 19.99, 25.66);
     
 
   
