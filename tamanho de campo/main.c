@@ -15,6 +15,9 @@ int main(int argc, char *argv[])
     //Tamanho de campo pra float a direita e ao mesmo tempo com arredondaemto.
     printf("%-15f %-20f %-10f \n", 39.9, 41.80, 17.17);
     
+    //Tamanho de campo pra cadeia de caracteres
+    printf("%12s %20s %17s \n", "Elisio", "Massaqui", "Luamba");
+    
 
   
   system("PAUSE");	
