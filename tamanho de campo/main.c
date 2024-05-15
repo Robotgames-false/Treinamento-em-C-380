@@ -15,8 +15,13 @@ int main(int argc, char *argv[])
     //Tamanho de campo pra float a direita e ao mesmo tempo com arredondaemto.
     printf("%-15f %-20f %-10f \n", 39.9, 41.80, 17.17);
     
-    //Tamanho de campo pra cadeia de caracteres
+    //Tamanho de campo pra cadeia de caracteres.
     printf("%12s %20s %17s \n", "Elisio", "Massaqui", "Luamba");
+    
+    //Combination de todos diferentes tipos de dados.
+    printf("Nome: %8s \t Idade: %2d \t Hora: %5f \n", "Elisio Massaqui Luamba", 22, 21.89);
+    
+    //Tamanho de campo com zeros preenchendo o vazioooo.
     
 
   
