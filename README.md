@@ -18,6 +18,7 @@ Bem-vindo ao repositório **Treinamento em C**! Este repositório foi criado par
 - [Argumentos](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/Argumentos.md)
 - [Diferenças de Armazenamento entre Tipos de Dados](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/armazenamento.md)
 - [Compreendendo a Necessidade de Tipos float Maiores](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/floatIsBIG.md)
+- [Escalonamento](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/escalonamento.md)
 
 ## 🛠️ Como Usar
 
