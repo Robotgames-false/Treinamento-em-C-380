@@ -11,6 +11,8 @@ Bem-vindo ao repositório **Treinamento em C**! Este repositório foi criado par
 
 ## Minha Jornada:
 - [Intro](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/main.c)
+- [Dicas](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/Dicas.md)
+
 - [A função printf e códigos especiais e de formatação](https://github.com/elisioMassaqui/Treinamento-em-C/tree/master/Special%20codes%20and%20printf%20format)
 - [Práticas](https://githu.com/elisioMassaqui/Treinamento-em-C/tree/master/pratice)
 - [Tipos de dados](https://github.com/elisioMassaqui/Treinamento-em-C/blob/master/tiposDados.md)
