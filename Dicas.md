@@ -55,8 +55,8 @@ Um sistema operacional é um conjunto de um ou mais programas que fornece um con
 
 ## Chamadas do sistema UNIX
 
-fork()
-exit()
-open()
-read()
-write()
+- fork()
+- exit()
+- open()
+- read()
+- write()
